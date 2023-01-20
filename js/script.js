@@ -15,7 +15,7 @@ navigation.classList.remove('navigation_active');
 
 try {
     const mute = document.querySelector('.mute__checkbox');
-    const audio = new Audio ('/audio/waterTower.mp3')
+    const audio = new Audio ('../audio/waterTower.mp3');
 
     const checkMute = () => {
         if(mute.checked) {
